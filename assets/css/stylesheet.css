@@ -1,0 +1,33 @@
+/* --------------------------------------------------- Navbar */
+
+.navbar-bg { 
+    background: #2d576d;
+    padding: 30px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: x-large;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #e0780c;
+}
+
+.nav-links {
+    padding-left: 59%;
+    text-align: left;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #e0780c;
+}
+
+.active:active {
+    color: #007990;
+}
