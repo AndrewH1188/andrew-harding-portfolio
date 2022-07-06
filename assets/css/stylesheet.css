@@ -31,3 +31,46 @@
 .active:active {
     color: #007990;
 }
+
+
+/* --------------------------------------------------- Carousel */
+
+
+.carousel {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- Footer */
+
+.footer-bg {
+    background: #2d576d;
+    padding: 30px;
+}
+
+
+.connect-with-me {
+    color: #fff;
+    padding-left: 45px;
+    /* text-align: center; */
+}
+
+
+.social-media a {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.social-media a:hover {
+    color: #e0780c;
+  }
+  
