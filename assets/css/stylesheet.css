@@ -39,21 +39,29 @@
 }
 
 
-
-
-
 /* --------------------------------------------------- Carousel */
 
-
 .carousel {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
+/* --------------------------------------------------- Welcome Text */
+
+.welcome-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* --------------------------------------------------- Text Box under welcome text */
 
 
 
+/* --------------------------------------------------- About Me */
 
 
 
@@ -65,7 +73,6 @@
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
 
 .connect-with-me {
     color: #fff;
@@ -86,7 +93,6 @@
 .social-media a:hover {
     color: #e0780c;
 }
-
 
 .credits {
     text-align: center;
