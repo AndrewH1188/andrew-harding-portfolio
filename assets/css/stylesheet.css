@@ -55,7 +55,16 @@
     text-align: center;
     font-size: larger;
     font-weight: 500;
+    color: #313d48;
 }
+
+
+
+/* --------------------------------------------------- Main text colour */
+.page-text {
+    color: #313d48;
+}
+
 
 /* --------------------------------------------------- Text Box under welcome text */
 
@@ -96,8 +105,17 @@
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    color: #313d48;
 }
 
+.card-text,
+.card-title {
+    color: #313d48;
+}
+
+.break {
+    margin-top: 100px;
+}
 
 /*.card-group {
         /* Below code to centre images found on W3 Schools - https://www.w3schools.com/howto/howto_css_image_center.asp */
@@ -107,6 +125,13 @@
  } */
 
 
+.web-links {
+    color: #265a9b
+}
+
+.web-links:hover {
+    color: #174071;
+}
 
 
 
@@ -155,7 +180,6 @@
     overflow: auto;
     resize: vertical;
 }
-
 
 
 /* Send Email Button */
