@@ -53,8 +53,8 @@
     
     
     <!-- Contact Header -->
-    <h3 class="hire-text">Hire me as a Front End Developer</h3>
-    <h5 class="contact-header">Please submit your details below</h5>
+    <h3 class="hire-text">Would you like to hire me for your vacant role?</h3>
+    <h5 class="contact-header">Please submit your details below.</h5>
 
 
 <!-- EmailJS -->
@@ -64,19 +64,19 @@
 <form id="form">
   <div class="field">
     <label for="from_name">Name: </label>
-    <input type="text" name="from_name" id="from_name" required>
+    <input placeholder="Please enter your full name" type="text" name="from_name" id="from_name" required>
   </div>
 
   <!-- message / email from -->
   <div class="field">
     <label for="from_email">Email Address: </label>
-    <input type="text" name="from_email" id="from_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <input placeholder="Please enter your email address" type="text" name="from_email" id="from_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
   </div>
 
     <!-- message / enquiries field -->
   <div class="field">
     <label for="website_enquiry">Message / Enquiry:</label>
-  <input type="text" name="website_enquiry" id="website_enquiry" required>
+    <textarea class="message-area" placeholder="Please enter your message here" name="website_enquiry" id="website_enquiry" required></textarea>
 </div>
 <input type="submit" id="button" value="Send Email">
 </form>

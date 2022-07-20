@@ -146,7 +146,7 @@
  /*--------------------------------------------- Contact Us Form */
 
 .hire-text {
-    margin-top: 30px;
+    margin-top: 32px;
     text-align: center !important;
 }
 
@@ -162,17 +162,19 @@
     margin-left: 13%;
     margin-right: 13%;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .field label {
     display: block;
-    font-size: 14px;
+    color: #313d48;
+    font-size: 18px;
 }
     
 .field input {
-    display: block;
-    min-width: 50%;
+    min-width: 60%;
     line-height: 1.5;
+    align-items: center;
     font-size: 14px;
 }
 
@@ -180,7 +182,6 @@
     overflow: auto;
     resize: vertical;
 }
-
 
 /* Send Email Button */
 input[type="submit"] {
@@ -198,11 +199,10 @@ input[type="submit"]:hover {
     background: #e0780c;
 }
   
-
-
-
-
-
+.message-area {
+    height: 15em;
+    min-width: 60%;
+}
 
 
 
@@ -316,5 +316,11 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*  */
+.message-area {
+    min-height: 100px;
+    min-width: 100px;
 }
 }
