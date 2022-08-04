@@ -100,11 +100,17 @@
 
 /* ---------------------------------------------------------------------------- Coding Page */
 
-.code-institute-about {
+.code-institute-about,
+.graphic-design-about,
+.photography-about,
+.illustration-about {
     margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
     color: #313d48;
+
 }
 
 .card-text,
@@ -280,12 +286,18 @@ html {
 
 /* Media Queries */
 
-
-
-
+/*---------------- Larger screens */
 @media (max-width: 1024px) {
+    .nav-links {
+        padding-left: 49%;
+    }
+    }
+
+
+/*---------------- Laptops */
+@media (max-width: 1524px) {
 .nav-links {
-    padding-left: 49%;
+    padding-left: 0;
 }
 }
 
@@ -293,7 +305,6 @@ html {
 /*---------------- iPhone and Surface Duo */
 
 @media (max-width: 768px) {
-
 .navbar-bg { 
     background: #2d576d;
     padding: 20px;
@@ -327,9 +338,17 @@ html {
     margin-right: auto;
 }
 
-/*  */
 .message-area {
     min-height: 100px;
     min-width: 100px;
+}
+}
+
+
+
+/*---------------- Older Phones */
+@media (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+.navbar-brand {
+    font-size: large;
 }
 }
