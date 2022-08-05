@@ -287,17 +287,22 @@ html {
 /* Media Queries */
 
 /*---------------- Larger screens */
-@media (max-width: 1024px) {
+/* Will need to check this as it is causing an issue on Laptop screens */
+/* @media (min-width: 2560px) {
     .nav-links {
-        padding-left: 49%;
+        padding-left: 89%; 
     }
-    }
+    } */
+
+
+
+
 
 
 /*---------------- Laptops */
-@media (max-width: 1524px) {
+@media (max-width: 1024px) {
 .nav-links {
-    padding-left: 0;
+    padding-left: 49%;
 }
 }
 
