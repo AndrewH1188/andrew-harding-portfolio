@@ -5,7 +5,7 @@ My Portfolio site showcases my Coding, Graphic Design and Developer skills to po
 ## Showcase
 ![responsive-screenshot](assets/images/testing/ah-portfolio-responsiveness.jpg)
 
-A deployed live version of my Portfolio website can be found [here](andrewharding-portfolio.co.uk)
+A deployed live version of my Portfolio website can be found [here](https://andrewh1188.github.io/andrew-harding-portfolio/)
 
 This domain link will allow you to access my live deployed website for my Portfolio. I have created this as part of my job search in order to showcase to employers my skills, as well as to continue coding and keep my new studied skills fresh, problem solve and learn from the challenges along the way to help make me a better Developer. 
 
