@@ -87,7 +87,8 @@
 
 /* --------------------------------------------------- About Me */
 
-.about-page-text,
+.about-me-header,
+.quotes-about-me, 
 .error404-text {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -97,7 +98,45 @@
     color: #313d48;
 }
 
+.about-page-text {
+    padding-right: 15%;
+    text-align: justify;
+    color: #313d48;
+}
 
+/* Code taken from https://mdbootstrap.com/docs/standard/extended/timeline/# 
+and is used on the About page. Other styling has been added so this matches the theme */
+.timeline-with-icons {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .timeline-with-icons .timeline-item {
+    position: relative;
+    color: #2d576d;
+  }
+
+  .timeline-with-icons .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+
+  .timeline-with-icons .timeline-icon {
+    position: absolute;
+    left: -48px;
+    background: #2d576d;
+    color: #fff;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 
