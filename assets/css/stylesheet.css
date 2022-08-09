@@ -67,6 +67,22 @@
 
 /* --------------------------------------------------- Text Box under welcome text */
 
+.opening-text-home {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    color: #313d48;
+}
+
+.opening-text-boxed {
+    background: #ebebeb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* margin-left: 7.7%;
+    margin-right: 7.7%; */
+}
 
 
 /* --------------------------------------------------- About Me */
@@ -360,6 +376,15 @@ html {
 
 .welcome-text {
     margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.opening-text-home,
+.quotes-about-me,
+.about-page-text {
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
 .page-hero-image {
