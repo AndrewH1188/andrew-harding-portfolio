@@ -141,7 +141,8 @@ and is used on the About page. Other styling has been added so this matches the 
 
 
 
-/* ---------------------------------------------------------------------------- Page Hero Images */
+
+/* ---------------------------------------------------------------------------- Page Hero Images and Hyperlink colour */
 
 .page-hero-image {
     max-width: 70%;
@@ -156,8 +157,16 @@ and is used on the About page. Other styling has been added so this matches the 
 
 
 
+.hyperlink-blue {
+    color: #265a9b;
+}
 
 
+.hyperlink-blue:hover {
+    /* color: #132e50; */
+    color: #e0780c;
+    text-decoration: none;
+}
 
 
 
