@@ -142,7 +142,7 @@ and is used on the About page. Other styling has been added so this matches the 
 
 
 
-/* ---------------------------------------------------------------------------- Page Hero Images and Hyperlink colour */
+/* ---------------------------------------------------------------------------- Page Hero Images, Hyperlink colour and Card Group */
 
 .page-hero-image {
     max-width: 70%;
@@ -155,17 +155,23 @@ and is used on the About page. Other styling has been added so this matches the 
     margin-right: auto;
 }
 
-
-
 .hyperlink-blue {
     color: #265a9b;
 }
-
 
 .hyperlink-blue:hover {
     /* color: #132e50; */
     color: #e0780c;
     text-decoration: none;
+}
+
+.card-group {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-bg {
+    margin-top: 30px;
 }
 
 
