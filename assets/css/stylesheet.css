@@ -46,6 +46,7 @@
     margin-right: 50px;
 }
 
+
 /* --------------------------------------------------- Welcome Text */
 
 .welcome-text {
@@ -56,7 +57,6 @@
     font-weight: 500;
     color: #313d48;
 }
-
 
 
 /* --------------------------------------------------- Main text colour */
@@ -88,8 +88,7 @@
 /* --------------------------------------------------- About Me */
 
 .about-me-header,
-.quotes-about-me, 
-.error404-text {
+.quotes-about-me {
     margin-top: 30px;
     margin-bottom: 40px;
     padding-left: 15%;
@@ -139,9 +138,6 @@ and is used on the About page. Other styling has been added so this matches the 
   }
 
 
-
-
-
 /* ---------------------------------------------------------------------------- Page Hero Images, Hyperlink colour and Card Group */
 
 .page-hero-image {
@@ -170,10 +166,9 @@ and is used on the About page. Other styling has been added so this matches the 
     padding-right: 15%;
 }
 
-.footer-bg {
+/* .footer-bg {
     margin-top: 30px;
-}
-
+} */
 
 
 /* ---------------------------------------------------------------------------- Coding Page */
@@ -206,6 +201,9 @@ and is used on the About page. Other styling has been added so this matches the 
         margin-right: auto; 
  } */
 
+.card-group-bottom {
+    margin-bottom: 40px;
+}
 
 .web-links {
     color: #265a9b
@@ -214,15 +212,6 @@ and is used on the About page. Other styling has been added so this matches the 
 .web-links:hover {
     color: #174071;
 }
-
-
-
-
-
-
-
-
-
 
 
  /*--------------------------------------------- Contact Us Form */
@@ -286,8 +275,6 @@ input[type="submit"]:hover {
     min-width: 60%;
 }
 
-
-
  
 /* --------------------------------------------------- Footer */
 
@@ -325,13 +312,6 @@ input[type="submit"]:hover {
 }
 
 
-
-
-
-
-
-
-
 /*--------------------------------------------- Back to top button */
 
 /* The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 */
@@ -359,8 +339,17 @@ html {
 }
 
 
-
 /*--------------------------------------------- Error pages */
+
+.error404-text {
+    padding-top: 10em;
+    margin-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    font-size: 25px;
+    color: #313d48;
+}
 
 
 .home-button {
@@ -384,21 +373,14 @@ html {
     color: #fff;;
 }
 
+.error-page-bg {
+    background: url('/assets/images/404-image.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
 
 /* Media Queries */
-
-/*---------------- Larger screens */
-/* Will need to check this as it is causing an issue on Laptop screens */
-/* @media (min-width: 2560px) {
-    .nav-links {
-        padding-left: 89%; 
-    }
-    } */
-
-
-
-
-
 
 /*---------------- Laptops */
 @media (max-width: 1024px) {
@@ -409,7 +391,6 @@ html {
 
 
 /*---------------- iPhone and Surface Duo */
-
 @media (max-width: 768px) {
 .navbar-bg { 
     padding: 20px;
@@ -457,7 +438,6 @@ html {
     min-width: 100px;
 }
 }
-
 
 
 /*---------------- Older Phones */
