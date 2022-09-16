@@ -1,224 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="This is my coded Portfolio site. My portfolio showcases not only my 
+  <meta charset="UTF-8">
+  <meta name="description" content="This is my coded Portfolio site. My portfolio showcases not only my 
         Graphic Design work, but also my four Code Institute Milestone Assessment Projects">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
-    <!-- My Stylesheet -->
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
-    <!-- Favicon -->
-    <link rel='icon' href='assets/images/ah-favicon.jpg' type='image/x-icon'/>
-    <title>Andrew Harding Portfolio | Home</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+  <!-- Favicon -->
+  <link rel='icon' href='assets/images/ah-favicon.jpg' type='image/x-icon' />
+  <title>Andrew Harding Portfolio | Home</title>
 </head>
+
 <body>
 
-<!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-bg">
-        <a class="navbar-brand" href="index.html">Andrew Harding</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          <i class="fas fa-bars" aria-hidden="true"></i>
-        <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                Portfolios
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="coding.html">Coding</a>
-                <a class="dropdown-item" href="graphic-design.html">Graphic Design</a>
-                <a class="dropdown-item" href="illustration.html">Illustration</a>
-                <a class="dropdown-item" href="photography.html">Photography</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-bg">
+    <a class="navbar-brand" href="index.html">Andrew Harding</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars" aria-hidden="true"></i>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            Portfolios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="coding.html">Coding</a>
+            <a class="dropdown-item" href="graphic-design.html">Graphic Design</a>
+            <a class="dropdown-item" href="illustration.html">Illustration</a>
+            <a class="dropdown-item" href="photography.html">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h3 class="about-me-header">About Me</h3>
+
+  <!-- Code taken from https://mdbootstrap.com/docs/standard/extended/timeline/# and is used on the About page -->
+  <!-- Section: Timeline -->
+  <!-- Study at London Met and Croydon College -->
+  <section class="line">
+    <ul class="timeline-with-icons">
+      <li class="timeline-item mb-5">
+        <span class="timeline-icon">
+          <i class="fas fa-graduation-cap fa-sm fa-fw"></i>
+        </span>
+        <h5 class="fw-bold">Croydon College and London Metropolitan University Studying</h5>
+        <p class="text-muted mb-2 fw-bold about-page-text">2005 - June 2010</p>
+        <p class="about-page-text">
+          I spent two years studying Graphic Design with Print Making as a side study at Croydon College.
+          I graduated from Croydon College with a Triple Distinction (3x A Levels) in Graphic Design and
+          went on to learn new skills as well as further my knowledge and skills whilst studying Graphic Design
+          at London Metropolitan University. During my three years studying at London Metropolitan University I
+          decided to learn Photography and Illustration as a side study. I was very much against the machine with
+          the illustration so would illustrate by hand.
+        </p>
+      </li>
+
+      <!-- Graphic Design Career Starts -->
+      <li class="timeline-item mb-5">
+        <span class="timeline-icon">
+          <i class="fas fa-user-tie fa-sm fa-fw"></i>
+        </span>
+        <h5 class="fw-bold">Graphic Design Career Starts</h5>
+        <p class="text-muted mb-2 fw-bold">June 2010</p>
+        <p class="about-page-text">
+          After five years of studying, I started my Graphic Design career with Richards Asssociates
+          (a small local company) as an intern, this was only a few weeks after graduating from
+          University. Richards Asssociates is where I had completed work experience with during the
+          break from leaving school, before going to College. Whilst being an intern working at Richards
+          Associates I studied at SCOLA (Sutton College of Learning for Adults) in the evenings to help
+          my Adobe InDesign, Illustrator, Photoshop, Flash and Dreamweaver skills progress further.
+          Whilst attending SCOLA I also studied basic HTML and CSS as this is what was on the job spec
+          and I had no knowledge of at the time. I completed my internship with Richards Associates and
+          was taken on as a full time Graphic Designer. Here I would not only work for some of the big
+          names in the conferencing business, but gain more skills and on the job knowledge as well as
+          work as part of the most amazing team I could have wished to work with.
+        </p>
+      </li>
+
+      <!-- Move Up North -->
+      <li class="timeline-item mb-5">
+        <span class="timeline-icon">
+          <i class="fas fa-store fa-sm fa-fw"></i>
+        </span>
+        <h5 class="fw-bold">A move up north sees a change in career</h5>
+        <p class="text-muted mb-2 fw-bold">June 2012 - November 2013</p>
+        <p class="about-page-text">
+          After moving up north to be with family I started working at Home Bargains as a sales assistant
+          whilst I was looking for another role in a Graphic Design company. Whilst I was at Home Bargains
+          I helped team members and even undertook junior management responsibilities.
+        </p>
+      </li>
+
+      <!-- Design Career -->
+      <li class="timeline-item mb-5">
+        <span class="timeline-icon">
+          <i class="fas fa-user-tie fa-sm fa-fw"></i>
+        </span>
+        <h5 class="fw-bold">Graphic Design career restarts</h5>
+        <p class="text-muted mb-2 fw-bold">December 2013 - June 2021</p>
+        <p class="about-page-text">
+          After applying to various companies with Graphic Design vacancies I was able to get a role with a
+          local Graphic Design firm. Here I would further my existing skills and learn new skills in Graphic
+          Design as well as be able to do some photography and illustration. I changed companies throughout
+          this time picking up new design and business skills and was able to use my existing skills to
+          complete various tasks for various industries and clients that we worked with. I would also go on
+          to work as a printer which helped understand the process as well as how outcomes are printed, and
+          what can't be printed due to complexity and machine ability.
+        </p>
+      </li>
+
+      <!-- Volunteering -->
+      <li class="timeline-item mb-5">
+        <span class="timeline-icon">
+          <i class="fas fa-hand-holding-heart fa-sm fa-fw"></i>
+        </span>
+        <h5 class="fw-bold">Volunteering continues</h5>
+        <p class="text-muted mb-2 fw-bold">June 2020 - Present</p>
+        <p class="about-page-text">
+          I have previously volunteered with Marie Curie and St Raphael's Hospice as part of my Duke of
+          Edinburgh's Award Gold Service and continued after I had completed this section. I wanted to
+          get back into volunteering, and during the pandemic I saw an advert in the Quiet magazine that
+          the British Tinnitus Association publish asking for help as a volunteer befriender. I read the
+          details of the ad and applied, I like volunteering and wanted to give back to a charity that has
+          helped me before. I was excited to be accepted and continue 2 years (2022) later to continue
+          helping and supporting others through the British Tinnitus Association.
+        </p>
+      </li>
+
+      <!-- Code Institute Study -->
+      <li class="timeline-item mb-5">
+        <span class="timeline-icon">
+          <i class="fas fa-graduation-cap fa-sm fa-fw"></i>
+        </span>
+        <h5 class="fw-bold">Studying with Code Institute</h5>
+        <p class="text-muted mb-2 fw-bold">22nd Feburary 2021 - 14th April 2022</p>
+        <p class="about-page-text">
+          Due to the pandemic and job uncertainty I decided to enrol with Learning People Global who are
+          partnered with Code Institute to learn to code, not only because this in demand, but also
+          having worked with websites and web design it would seem natural to use my existing skills and
+          branch out to new ventures. Having successfully completed the course at the middle of April, I
+          have since been looking for a role as a Junior Front End Developer. If you have an open role for
+          a Junior Front End Developer and would like to take a look at my
+          <a class="hyperlink-blue" href="coding.html">Coded portfolio</a> or even
+          <a class="hyperlink-blue" href="contact.html">Contact</a>
+          me to discuss a role please do so. I very much look forward to hearing from and working with you.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- About quote -->
+  <p class="quotes-about-me">
+    <strong>“Andrew works hard and has a great work ethic. He comes prepared and ready with a wonderful, champion,
+      positive and infectious attitude. He is a breath of fresh air.”</strong> <em>Stuart - Learning People Global</em>
+  </p>
+
+  <!-- Footer -->
+  <section class="footer-bg">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-12 text-md-start social">
+            <p class="connect-with-me">Connect with and follow me:</p>
+            <ul class="social-media">
+              <!-- Facebook -->
+              <li class="list-inline-item social-media"><a
+                  href="https://www.facebook.com/AndrewHardingFullStackWebDeveloper" target="_blank"><i
+                    class="fab fa-facebook-square" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span></a></li>
+              <!-- LinkedIn -->
+              <li class="list-inline-item social-media"><a href="https://www.linkedin.com/in/andrew-harding-coder"
+                  target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                  <span class="sr-only">LinkedIn</span></a></li>
+              <!-- Instagram -->
+              <li class="list-inline-item social-media"><a href="https://www.instagram.com/andrewh1188/"
+                  target="_blank"><i class="fab fa-instagram-square" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span></a></li>
+              <!-- Twitter -->
+              <li class="list-inline-item social-media"><a
+                  href="https://twitter.com/andrewh1188?s=21&t=t6-HtguZVHz7MbNRaVFGiQ" target="_blank"><i
+                    class="fab fa-twitter-square" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span></a></li>
+              <!-- Adobe Behance -->
+              <li class="list-inline-item social-media"><a href="https://www.behance.net/Andrew_Harding"
+                  target="_blank"><i class="fab fa-behance-square" aria-hidden="true"></i>
+                  <span class="sr-only">Adobe Behance</span></a></li>
+              <!-- GitHub -->
+              <li class="list-inline-item social-media"><a href="https://github.com/AndrewH1188" target="_blank"><i
+                    class="fab fa-github-square" aria-hidden="true"></i>
+                  <span class="sr-only">GitHub</span></a></li>
+            </ul>
+          </div>
         </div>
-      </nav>
-    
-      <h3 class="about-me-header">About Me</h3>
-
-<!-- Code taken from https://mdbootstrap.com/docs/standard/extended/timeline/# and is used on the About page -->
-<!-- Section: Timeline -->
-<section class="line">
-  <ul class="timeline-with-icons">
-    <li class="timeline-item mb-5">
-      <span class="timeline-icon">
-        <i class="fas fa-graduation-cap fa-sm fa-fw"></i>
-      </span>
-
-      <h5 class="fw-bold">Croydon College and London Metropolitan University Studying</h5>
-      <p class="text-muted mb-2 fw-bold about-page-text">2005 - June 2010</p>
-      <p class="about-page-text">
-      I spent two years studying Graphic Design with Print Making as a side study at Croydon College. 
-      I graduated from Croydon College with a Triple Distinction (3x A Levels) in Graphic Design and 
-      went on to learn new skills as well as further my knowledge and skills whilst studying Graphic Design 
-      at London Metropolitan University. During my three years studying at London Metropolitan University I 
-      decided to learn Photography and Illustration as a side study. I was very much against the machine with 
-      the illustration so would illustrate by hand. 
-      </p>
-    </li>
-
-    <li class="timeline-item mb-5">
-
-      <span class="timeline-icon">
-        <i class="fas fa-user-tie fa-sm fa-fw"></i>
-      </span>
-      <h5 class="fw-bold">Graphic Design Career Starts</h5>
-      <p class="text-muted mb-2 fw-bold">June 2010</p>
-      <p class="about-page-text">
-        After five years of studying, I started my Graphic Design career with Richards Asssociates 
-        (a small local company) as an intern, this was only a few weeks after graduating from 
-        University. Richards Asssociates is where I had completed work experience with during the 
-        break from leaving school, before going to College. Whilst being an intern working at Richards 
-        Associates I studied at SCOLA (Sutton College of Learning for Adults) in the evenings to help 
-        my Adobe InDesign, Illustrator, Photoshop, Flash and Dreamweaver skills progress further. 
-        Whilst attending SCOLA I also studied basic HTML and CSS as this is what was on the job spec 
-        and I had no knowledge of at the time. I completed my internship with Richards Associates and 
-        was taken on as a full time Graphic Designer. Here I would not only work for some of the big 
-        names in the conferencing business, but gain more skills and on the job knowledge as well as 
-        work as part of the most amazing team I could have wished to work with.
-      </p>
-    </li>
-
-    <li class="timeline-item mb-5">
-
-      <span class="timeline-icon">
-        <i class="fas fa-store fa-sm fa-fw"></i>
-      </span>
-      <h5 class="fw-bold">A move up north sees a change in career</h5>
-      <p class="text-muted mb-2 fw-bold">DATE HERE</p>
-      <p class="about-page-text">
-        TEXT HERE
-      </p>
-    </li>
-
-
-    <li class="timeline-item mb-5">
-    <span class="timeline-icon">
-      <i class="fas fa-user-tie fa-sm fa-fw"></i>
-    </span>
-    <h5 class="fw-bold">Graphic Design career restarts</h5>
-    <p class="text-muted mb-2 fw-bold">DATE HERE</p>
-    <p class="about-page-text">
-      TEXT HERE
-    </p>
-  </li>
-
-
-
-
-
-    <li class="timeline-item mb-5">
-
-      <span class="timeline-icon">
-        <i class="fas fa-hand-holding-heart fa-sm fa-fw"></i>
-      </span>
-      <h5 class="fw-bold">TITLE HERE</h5>
-      <p class="text-muted mb-2 fw-bold">DATE HERE</p>
-      <p class="about-page-text">
-        TEXT HERE
-      </p>
-    </li>
-
-
-
-
-
-    <li class="timeline-item mb-5">
-
-      <span class="timeline-icon">
-        <i class="fas fa-graduation-cap fa-sm fa-fw"></i>
-      </span>
-      <h5 class="fw-bold">Studying with Code Institute</h5>
-      <p class="text-muted mb-2 fw-bold">22nd Feburary 2021 - 14th April 2022</p>
-      <p class="about-page-text">
-        TEXT HERE
-        <a class="hyperlink-blue" href="coding.html">Coded portfolio</a>
-      </p>
-    </li>
-  </ul>
-</section>
-<!-- Section: Timeline -->
-
-
-
-
-      <!-- About quote -->
-
-      <p class="quotes-about-me">
-        <strong>“Andrew works hard and has a great work ethic. He comes prepared and ready with a wonderful, champion, 
-        positive and infectious attitude. He is a breath of fresh air.”</strong> <em>Stuart - Learning People Global</em>
-      </p>
-
-
-
-
-
-
-
-
-      <!-- Footer -->
-      <section class="footer-bg">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-12 text-md-start social">
-                        <p class="connect-with-me">Connect with and follow me:</p>
-                        <ul class="social-media">
-                          <!-- Facebook -->
-                          <li class="list-inline-item social-media"><a href="https://www.facebook.com/AndrewHardingFullStackWebDeveloper"
-                            target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span></a></li>
-                          <!-- LinkedIn -->
-                          <li class="list-inline-item social-media"><a href="https://www.linkedin.com/in/andrew-harding-coder"
-                            target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span></a></li>
-                          <!-- Instagram -->
-                          <li class="list-inline-item social-media"><a href="https://www.instagram.com/andrewh1188/"
-                            target="_blank"><i class="fab fa-instagram-square" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span></a></li>
-                          <!-- Twitter -->
-                          <li class="list-inline-item social-media"><a href="https://twitter.com/andrewh1188?s=21&t=t6-HtguZVHz7MbNRaVFGiQ"
-                            target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span></a></li>
-                          <!-- Adobe Behance -->
-                          <li class="list-inline-item social-media"><a href="https://www.behance.net/Andrew_Harding"
-                            target="_blank"><i class="fab fa-behance-square" aria-hidden="true"></i>
-                            <span class="sr-only">Adobe Behance</span></a></li>
-                          <!-- GitHub -->
-                          <li class="list-inline-item social-media"><a href="https://github.com/AndrewH1188"
-                            target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i>
-                            <span class="sr-only">GitHub</span></a></li>                              
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div>
-              <p class="credits">Website designed and coded by Andrew Harding</p>
-            </div>
-        </footer>
-<!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
-<button type="button" class="btn btn-floating btn-lg back-to-top-button" id="btn-back-to-top">
-  <i class="fas fa-arrow-up"></i>
-  <span class="sr-only">Back to the top button</span>
-</button>
+      </div>
+      <div>
+        <p class="credits">Website designed and coded by Andrew Harding</p>
+      </div>
+    </footer>
+    <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
+    <button type="button" class="btn btn-floating btn-lg back-to-top-button" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+      <span class="sr-only">Back to the top button</span>
+    </button>
 </body>
 <!-- Nav Dropdown Menu -->
 <script src="assets/js/dropdown-menu.js"></script>
@@ -227,9 +235,13 @@
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- Back to top button -->
 <script src="assets/js/top-button.js"></script>
+
 </html>
