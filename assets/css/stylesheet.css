@@ -106,19 +106,15 @@
 /* Code taken from https://mdbootstrap.com/docs/standard/extended/timeline/# 
 and is used on the About page. Other styling has been added so this matches the theme */
 .timeline-with-icons {
-    border-left: 1px solid hsl(0, 0%, 90%);
-    position: relative;
     list-style: none;
-    padding-left: 15%;
-    padding-right: 15%;
   }
 
-  .timeline-with-icons .timeline-item {
+.timeline-with-icons .timeline-item {
     position: relative;
     color: #2d576d;
   }
 
-  .timeline-with-icons .timeline-item:after {
+.timeline-with-icons .timeline-item:after {
     position: absolute;
     display: block;
     top: 0;
@@ -126,7 +122,7 @@ and is used on the About page. Other styling has been added so this matches the 
 
   .timeline-with-icons .timeline-icon {
     position: absolute;
-    left: -48px;
+    left: -56px;
     background: #2d576d;
     color: #fff;
     border-radius: 50%;
@@ -137,6 +133,10 @@ and is used on the About page. Other styling has been added so this matches the 
     justify-content: center;
   }
 
+  .line {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    margin-left: 16%;
+  }
 
 /* ---------------------------------------------------------------------------- Page Hero Images, Hyperlink colour and Card Group */
 
