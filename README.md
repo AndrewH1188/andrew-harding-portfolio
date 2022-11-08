@@ -38,11 +38,14 @@ My Portfolio site has been designed to be responsive across all platforms. The o
     * [Other Resources](#other-resources)
     * [Social Media](#social-media)
 6. [Testing](#testing)
-    * [Implementation](#implementation)
-    * [Results](#results)
-    * [Bugs](#bugs)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
     * [Acknowledgments](#acknowledgments)
+
+
+## Testing:
+Testing can be found [here](TESTING.md)
+
+## Deployment:
