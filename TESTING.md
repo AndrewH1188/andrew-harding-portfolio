@@ -13,9 +13,28 @@ Back to [README.md](README.md) file
 	* [HTML Validator](#html-validator)
 	* [Jigsaw CSS Validator](#jigsaw-css-validator)
 	* [JSHint](#jshint)
-	* [JSONFormatter](#jsonformatter)
 
-## Lighthouse
+### Navigation
+
+### User Stories
+
+### Implementation
+
+### Devices Used
+The following devices were used to test this site on:
+
+* iPhone 13
+* 13 inch MacBook Pro
+* iPad (5th generation)
+
+### Browsers
+The following Browsers were used to test this site:
+
+* Google Chrome
+* Safari
+
+
+## Lighthouse Results
 I have tested my site using Lighthouse in Google Chrome Dev Tools and my results for the testing of the various pages are as follows:
 
 ### Home Page Desktop Results:
@@ -59,3 +78,12 @@ I have tested my site using Lighthouse in Google Chrome Dev Tools and my results
 
 ### Contact Page Mobile Results:
 ![Contact Page Mobile Results](assets/images/lighthouse/contact-mobile-lighthouse-testing.jpg)
+
+
+### Validators
+
+
+
+### HTML Validator
+### Jigsaw CSS Validator
+#### JSHint
