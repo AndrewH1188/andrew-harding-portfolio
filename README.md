@@ -71,14 +71,14 @@ My Portfolio site has been designed to be responsive across all platforms. The o
 ## Scope
 ## Structure
 ## Skeleton
-## Surface]
+## Surface
 
 
 
 
 
 
-## Design:
+## Design
 As my site is a portfolio with different works and methods of creativity, from Coding through to Photography, I decided to give each a page with the relevant content. It was hard to pick the various images as I have such a large creative portfolio from many years of work.
 
 The original mock designs that I produced in [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) can be found below:
@@ -114,7 +114,7 @@ The original mock designs that I produced in [Adobe InDesign](https://www.adobe.
 
 
 
-## Wireframes:
+## Wireframes
 #### Home / Index page
 ![Home](assets/images/designs/wireframes/andrew-harding-home-index-wireframes.png)
 
@@ -130,8 +130,10 @@ The original mock designs that I produced in [Adobe InDesign](https://www.adobe.
 
 
 
-## Imagery:
+## Imagery
+
 ##### Favicon:
+I created the favicon that I have used using my initials AH in [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html). I then exported this out as a jpg from there and uploaded this for use as part of my site.
 
 
 
@@ -181,12 +183,26 @@ Although the Error 404 image was downloaded from [Adobe Stock](https://stock.ado
 
 ## Social Media
 
-## Testing:
+## Testing
 Testing can be found [here](TESTING.md)
 
-## Deployment:
+## Deployment
+
 ## Credits
+* Code Institute GitPod template that has Emmett abbreviation.
+* [101 Computing.net](https://www.101computing.net/html-how-to-add-a-favicon/) I reused the code from 101 Computing.net throughout all of my Milestone Projects and personal projects. This enables a favicon to display across my site on all pages.
+* [Adobe Stock](https://stock.adobe.com/uk/) for once again having superb images that I have been able to pay for and download to make my eCommerce store look amazing. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
+* [Pixabay](https://pixabay.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
+
+
+
+
+
 ## Content
+All content on my website / portfolio has been written by myself apart from the quote which is by Stuart Crang. 
+
+
+
 ## Media
 Some images were purchased and downloaded from [Adobe Stock](https://stock.adobe.com/uk/). Other images were downloaded from [Pixabay](https://pixabay.com/) and have their respected links to the image source in the [Imagery](#imagery) section of my README.md document 
 

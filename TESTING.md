@@ -87,3 +87,5 @@ I have tested my site using Lighthouse in Google Chrome Dev Tools and my results
 ### HTML Validator
 ### Jigsaw CSS Validator
 #### JSHint
+
+[Back to Table of Contents](#table-of-contents)
