@@ -415,13 +415,6 @@ html {
     margin-right: 15px;
 }
 
-.opening-text-home,
-.quotes-about-me,
-.about-page-text {
-    padding-left: 9%;
-    padding-right: 9%;
-}
-
 .page-hero-image {
     max-width: 95%;
     max-height: 95%;
@@ -433,9 +426,42 @@ html {
     margin-right: auto;
 }
 
+.opening-text-home,
+.quotes-about-me,
+.about-page-text,
+.code-institute-about,
+.illustration-about,
+.graphic-design-about,
+.photography-about {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.card-group {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.fw-bold {
+    padding-right: 9%;
+}
+
+
+.about-page-text {
+    padding-right: 18%;
+    padding-left: 0;
+}
+
+.quotes-about-me {
+    padding-left: 8%;
+}
+
+
+
+.field input,
 .message-area {
-    min-height: 100px;
-    min-width: 100px;
+    min-width: 100%;
+    min-height: 100%;
 }
 }
 
