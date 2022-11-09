@@ -194,20 +194,33 @@ Testing can be found [here](TESTING.md)
 * [Adobe Stock](https://stock.adobe.com/uk/) for once again having superb images that I have been able to pay for and download to make my eCommerce store look amazing. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
 * [Pixabay](https://pixabay.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
 
-
+* [Font Awesome](https://fontawesome.com/) has been used for the following:
+    * Social media icons
+    * Back to top button
+    * About me icons
 
 
 
 ## Content
-All content on my website / portfolio has been written by myself apart from the quote which is by Stuart Crang. 
+All content on my website / portfolio has been written by myself apart from the quote which is by Stuart Crang at Learning People Global. 
 
+All media and imagery that is on my site is my own apart from the images in the carousel, portfolio page banners and the error 404 image. I have added to these or amended them in a slight way. These ways of amending are by adding the different coloured shape with the text in and colouring of the 404 image as mentioned in the [imagery](#imagery) section.
 
+There is some content that I have used from previous Code Institute Milestone Projects as well as from [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Media
 Some images were purchased and downloaded from [Adobe Stock](https://stock.adobe.com/uk/). Other images were downloaded from [Pixabay](https://pixabay.com/) and have their respected links to the image source in the [Imagery](#imagery) section of my README.md document 
 
 ## Acknowledgments
+I would like to start of by thanking as always my Mum. Thank you for your belief, help, support, understanding and just for being there. Without you there to help in the ways that you can I wouldn't have been able to have done any of this without you. THANK YOU MUM. 
 
+Thank you to Stuart Crang at the Learning People Global for your help, support, and continuous coffee related material. Here's to you good sir ☕. 
+
+I would also like to thank Jim and Susie Jenner for their help and support even though they still don't really know how I do what I do, but are intrigued to hear about my progress nevertheless.
+
+Thank you to Auntie Julie and Uncle Danny for your support along the way and for your feedback too.
+
+Thank you to all at Planet Rock for keeping me company with great music and DJs whilst I code away.
 
 Andrew Harding's Portfolio was designed by myself Andrew Harding.
 
