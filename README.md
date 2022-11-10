@@ -260,7 +260,7 @@ You are more than welcome to run this project locally yourself, and if you would
 * [101 Computing.net](https://www.101computing.net/html-how-to-add-a-favicon/) I reused the code from 101 Computing.net throughout all of my Milestone Projects and personal projects. This enables a favicon to display across my site on all pages.
 * [Adobe Stock](https://stock.adobe.com/uk/) for once again having superb images that I have been able to pay for and download to make my eCommerce store look amazing. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
 * [Pixabay](https://pixabay.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
-
+* [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-change-the-underline-color-in-css/#:~:text=By%20default%2C%20the%20color%20of,decoration%20property%20to%20style%20underline.&text=CSS%20text%2Ddecoration%2Dcolor%20Property,%2Dthroughs)%20over%20the%20text.) for providing the answer to changing the underline on my active link on the nav bar. 
 * [Font Awesome](https://fontawesome.com/) has been used for the following:
     * Social media icons
     * Back to top button
