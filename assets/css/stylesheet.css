@@ -28,8 +28,9 @@
     color: #e0780c;
 }
 
-.active:active {
-    color: #007990;
+.active {
+    text-decoration: underline;
+    text-decoration-color: #e0780c;
 }
 
 .navbar-toggler {
