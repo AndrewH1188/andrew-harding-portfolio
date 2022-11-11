@@ -3,18 +3,41 @@ Back to [README.md](README.md) file
 ## Testing
 
 ## Table of Contents
-1. [Navigation](#navigation)   
-2. [Testing User Stories](#testing-user-stories)
-3. [Implementation](#implementation)
-4. [Devices used](#devices-used)
-5. [Browsers](#browsers)
-6. [Lighthouse Results](#lighthouse-results)
-7. [Validators](#validators)
+1. [Navigation](#navigation)
+2. [Home](#home) 
+3. [About](#about)
+4. [About](#about)
+5. [Contact](#contact)  
+6. [Testing User Stories](#testing-user-stories)
+7. [Implementation](#implementation)
+8. [Devices used](#devices-used)
+9. [Browsers](#browsers)
+10. [Lighthouse Results](#lighthouse-results)
+11. [Validators](#validators)
 	* [HTML Validator](#html-validator)
 	* [Jigsaw CSS Validator](#jigsaw-css-validator)
 	* [JSHint](#jshint)
 
 ### Navigation
+* Tested navigation in nav bar takes users to the clicked page.
+* Tested when page clicked that an underline appears to show the user which page they are on. The dropdown works slightly different to the main menu, but this still shows the user which page they are on.
+* Tested Social Media icons link to the right sites and my account.
+
+### Home
+* Tested the carousel links to the right pages when the image is clicked on.
+* Tested carousel can be manually controlled by clicking the left and right arrows.
+* Tested carousel can be manually controlled using the bars on the carousel.
+* Tested the word hire takes the user to the contact page.
+
+### About
+* Tested links in the about text section take the user to the right page.
+
+### Coding
+* Tested links in the coding text section take the user to the right page.
+
+### Contact
+* Tested forms can't be left blank when submit button is pressed.
+* Tested completed form delivers to my email account with the correct details as per those filled out in the form.
 
 ### User Stories
 
@@ -120,6 +143,7 @@ Second test after amends to code
 Second test after amends to code
 ![Contact Page Mobile Results 2](assets/images/lighthouse/contact-mobile-lighthouse-testing-2.jpg)
 
+With all the second tests that I conducted (after amending the code because of the validator suggestions and tips) I noticed that whilst some results stay the same and others improve. There are other results that haven't and have gone down. I had to run the second Lighthouse testing in incognito mode as there were issues affecting this. This is the only reason that I could put the negative change in results down to. 
 
 ### Validators
 ### HTML Validator
@@ -181,7 +205,5 @@ After adding the semicolon at the end and re running the validator this outcome 
 
 ### Back to top button
 ![Back to top button](assets/images/validator/jshint-scroll-to-top-button.jpg)
-
-
 
 [Back to Table of Contents](#table-of-contents)
