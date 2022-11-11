@@ -33,7 +33,6 @@ The following Browsers were used to test this site:
 * Google Chrome
 * Safari
 
-
 ## Lighthouse Results
 I have tested my site using Lighthouse in Google Chrome Dev Tools and my results for the testing of the various pages are as follows:
 
@@ -81,11 +80,43 @@ I have tested my site using Lighthouse in Google Chrome Dev Tools and my results
 
 
 ### Validators
-
-
-
 ### HTML Validator
+When I originally ran my code through the W3C HTML validator I had some issues. the issues highlighted to me were:
+
+1. Unclosed div in the nav section.
+2. Unclosed section tag in the footer.
+3. Script tags outside of the body.
+
+After I'd corrected these mistakes and ran this through the W3C HTML validator I was only left with 3 warnings. These warnings relate to the EmailJS code that I took from EmailJS itself. I looked at amending this so that the W3C validator would be ok with the code that it saw. I tested the form with the type="script/javascript" removed but the form didn't work, so I have had to leave this in.
+
+### Home
+![Home HTML Validator](assets/images/validator/w3c-html-home.jpg)
+
+### About
+![About HTML Validator](assets/images/validator/w3c-html-about.jpg)
+
+### Coding
+![Coding HTML Validator](assets/images/validator/w3c-html-coding.jpg)
+
+### Graphic Design
+![Graphic Design HTML Validator](assets/images/validator/w3c-html-graphic-design.jpg)
+
+### Illustration
+![Illustration HTML Validator](assets/images/validator/w3c-html-illustration.jpg)
+
+### Photography
+![Photography HTML Validator](assets/images/validator/w3c-html-photography.jpg)
+
+### Contact
+![Contact HTML Validator](assets/images/validator/w3c-html-contact.jpg)
+
 ### Jigsaw CSS Validator
+When I first tested my CSS I had two warnings that I had done. There are other warnings but these are coming from Bootstrap.
+![CSS Testing](assets/images/validator/jigsaw-css-testing-1.jpg)
+
+After removing the depreciated media feature the validator showed no errors that I had done.
+![CSS Testing 2](assets/images/validator/jigsaw-css-testing-2.jpg)
+
 #### JSHint
 
 [Back to Table of Contents](#table-of-contents)
