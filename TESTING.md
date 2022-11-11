@@ -118,5 +118,28 @@ After removing the depreciated media feature the validator showed no errors that
 ![CSS Testing 2](assets/images/validator/jigsaw-css-testing-2.jpg)
 
 #### JSHint
+When I tested the JavaScript Code through JSHint I had the following results:
+
+### Drop-down Menu
+![Drop-down Menu 1](assets/images/validator/jshint-menu-dropdown-1.jpg)
+After running the JavaScript code through JSHint I saw that I needed the semicolon at the end to the line.
+
+![Drop-down Menu 2](assets/images/validator/jshint-menu-dropdown-2.jpg)
+After adding the semicolon at the end and re running the validator this outcome was ok.
+
+### Carousel
+![Carousel 1](assets/images/validator/jshint-carousel-1.jpg)
+After running the JavaScript code through JSHint I saw that I needed the semicolon at the end to the line.
+
+![Carousel 2](assets/images/validator/jshint-carousel-2.jpg)
+After adding the semicolon at the end and re running the validator this outcome was ok.
+
+### Contact Us
+![Contact Us](assets/images/validator/jshint-emailjs.jpg)
+
+### Back to top button
+![Back to top button](assets/images/validator/jshint-scroll-to-top-button.jpg)
+
+
 
 [Back to Table of Contents](#table-of-contents)
