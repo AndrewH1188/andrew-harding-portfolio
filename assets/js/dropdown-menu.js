@@ -1,1 +1,1 @@
-$('.dropdown-toggle').dropdown('show.bs.dropdown')
+$('.dropdown-toggle').dropdown('show.bs.dropdown');
