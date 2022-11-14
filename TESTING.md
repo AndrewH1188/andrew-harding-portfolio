@@ -6,7 +6,7 @@ Back to [README.md](README.md) file
 1. [Navigation](#navigation)
 2. [Home](#home) 
 3. [About](#about)
-4. [About](#about)
+4. [Coding](#coding)
 5. [Contact](#contact)  
 6. [Testing User Stories](#testing-user-stories)
 7. [Implementation](#implementation)
@@ -42,6 +42,10 @@ Back to [README.md](README.md) file
 ### User Stories
 
 ### Implementation
+My Portfolio site has been coded and designed to meet three needs. 
+1. The first is to continue using the coding skills and knowledge that I have learned whilst studying with Code Institute in order to build a fully functional site. 
+2. The second is to showcase my diverse portfolio of Coding, Graphic Design, Illustration and Photography skills to prospective employers and anyone else that views my site. 
+3. The third is to have one link that encompasses all of my portfolios within a portfolio site. This will help when adding the link to the Website box part of the job application section. As I have four links from my Code Institute Milestone Projects this has been previously difficult to pick from. Thinking of my portfolio site as Lord of the Rings this is the “One link to rule them all”. My portfolio addresses all three of the needs mentioned above and gives you as the user a little taste of what I am about, what I can do, what I have been up to.
 
 ### Devices Used
 The following devices were used to test this site on:

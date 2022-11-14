@@ -17,22 +17,18 @@ My Portfolio site has been designed to be responsive across all platforms. The o
     * [As a new / first time user](#new-first-time-user)
     * [Returning Visitor Goals](#returning-visitor-goals)
     * [User Goals](#user-goals)
-
 2. [Construction Planes](#construction-planes)
     * [Strategy](#strategy)
     * [Scope](#scope)
     * [Structure](#structure)
     * [Skeleton](#skeleton)
     * [Surface](#surface)
-
 3. [Design](#design)
     * [Wireframes](#wireframes)
     * [Imagery](#imagery)
-
 4. [Features](#features)
     * [Existing-features](#existing-features)
     * [Future-features](#future-features)
-
 5. [Technologies and Languages Used](#technologies)
     * [Libraries Frameworks and Online Resources Used](#libraries)
     * [Tools](#tools)
@@ -40,25 +36,17 @@ My Portfolio site has been designed to be responsive across all platforms. The o
     * [Other Resources](#other-resources)
     * [Social Media](#social-media)
     * [Portfolio Sites](#portfolio-sites)
-
 6. [Testing](#testing)
-
 7. [Deployment](#deployment)
-
 8. [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
     * [Acknowledgments](#acknowledgments)
 
-
-
-
-
-
-
-
-
 ## User Experience UX
+
+
+
 ## User Stories
 ## As a new / first time user
 ## Returning Visitor Goals
@@ -145,7 +133,6 @@ File number: 455698.
 By: alphaspirit.
 File number: 36150598.
 
-
 ##### 404 Error page: 
 [Vector illustration 404 error page not found banner. System error, broken page. Disconnected wires from the outlet. Cable and socket. Cord plug. For website. Web Template. Blue. Eps 10](https://stock.adobe.com/uk/images/vector-illustration-404-error-page-not-found-banner-system-error-broken-page-disconnected-wires-from-the-outlet-cable-and-socket-cord-plug-for-website-web-template-blue-eps-10/359092119)
 By: accogliente.
@@ -153,25 +140,33 @@ File number: 359092119.
 
 Although the Error 404 image was downloaded from [Adobe Stock](https://stock.adobe.com/uk/) I coloured this vector image so this was the same as my site.
 
-
-
-
-
-
 ## Features
 ## Existing-features
+* The user is able to get a good feel of my portfolio site and what it has to offer them from the home page. The carousel gives the user a brief preview about my portfolio site with the various images that are relate to the portfolio categories.
+* The user is able to use either the carousel images or the nav bar to navigate their way to the different portfolio sections.
+* Users are able to navigate to the contact page by clicking the 'hire' text link in the welcome text section that tells them what, how, why the site was created and what I would like to achieve from this.
+* The navigation bar enables a user to see the current page that they are on and navigate through to other pages effortlessly and with ease.
+* The about page tells the user a brief bit about me and walks the user from the start of my studies at college through to some of the various companies that I have worked at. Also this has links to my Coding portfolio and to contact me should they like what they see and want to know more.
+* The Coding page allows users to explore my live sites as well as take a look at the code behind the scenes in my repository.
+* Users are able to contact me by filling out the form on the contact page and pressing the send button. They are notified that their message has been successfully sent and that I will endeavour to reply to them as soon as possible.
+* The Social Media icons in the footer allow users to access easily my various Social Media channels. Here they are able to follow, add, like and comment as well as stay up to date with any posts that I put on these.
+* My portfolio site can be accessed on different devices. 
+
 ## Future-features
+My plan for this portfolio site is to break it out into separate websites. One will be a Coding only site with all of my coding portfolio and showcasing all of the individual sites that makeup my Coding portfolio, whilst the other site will be focused on my Design background. I will still keep this site and add to the Coding page with other portfolio sites that I complete along the way. Breaking this site out into separate sites I believe will give employers a better understanding / feel of what I can do coding wise and not overpower this with my design experience as this is showcased within the sites that I have produced and will continue to produce.
 
 ## Technologies and Languages Used
 ### Languages
-[HTML5](https://en.wikipedia.org/wiki/HTML5)
-[CSS3](https://en.wikipedia.org/wiki/CSS)
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) for the markup language to construct the site and content.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) to help style the content on the pages, as well as help with the layout.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)to help features to work as expected and add extra working features.
+* [jQuery](https://jquery.com/) to help features to work as expected and add extra working features.
 
 ## Libraries Frameworks and Online Resources Used
 * [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/): For testing purposes and to see why elements are not working as expected. Dev tools allowed me to make changes to my code in the browser to see a live representation of my website / service with the changes / amends that have been made.
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Was used for testing my website / service for Performance, Accessibility, Best Practices and Search Engine Optimisation (SEO). I have tested as before on my portfolio the different categories mentioned above on both mobile applications and computer applications and have loaded the screenshots of the results in the [testing](TESTING.md) section.
 * [Google Fonts](https://fonts.google.com/): Google Fonts was used to find a suitable font as well as to import this font into my website / service. The font that I decided to use as it was clean, stylish and fitting is called Spartan which is displayed on all pages on my website / service throughout the project. This is to keep styles consistent throughout my website / service.
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/): For help with styling and layout of my portfolio site.
 * [Font Awesome](https://fontawesome.com/): The Font Awesome Icons that I have used have been listed below:
 * [Hamburger Bars icon](https://fontawesome.com/v5/icons/bars?style=solid&s=solid&f=classic)
 * [Study icon](https://fontawesome.com/icons/graduation-cap?s=solid&f=classic)
@@ -184,18 +179,13 @@ Although the Error 404 image was downloaded from [Adobe Stock](https://stock.ado
 * [Twitter icon](https://fontawesome.com/v5/icons/twitter?style=brands&s=solid&f=brands)
 * [Adobe Behance icon](https://fontawesome.com/icons/square-behance?s=&f=brands)
 * [GitHub icon](https://fontawesome.com/icons/square-github?s=&f=brands)
-
 * [Tiny PNG](https://tinypng.com/): Again my friend Tiny PNG was used to compress the file size of all images without losing any of the original image quality or distorting the images in any way. This is so that when the pages are loaded the images do not slow down the loading speed and therefore make this user-friendly, as well as reduces the bounce rate of users viewing and clicking off the pages.
-
 * [EmailJS](https://www.emailjs.com/): used in order to hook up my contact section to my email. This is so that I am able to receive, questions or feedback from the users that have interacted with my site / service.
 
 ## Tools
 * [GitPod](https://www.gitpod.io/) was used to write my code as well as paste in code from Bootstrap. In GitPod I was also able to amend the code from Bootstrap as well as create and style code in both HTML and CSS. I was able to add images to the folders that I created, as well as files to contain the code. In GitPod I was also able to (using python3 -m http.server) view my web page in the browser in a separate tab, allowing me to use the inspect section in Google Dev Tools to inspect elements and see what worked, as well as what didn’t work and amend this accordingly.
-
 * [Git](https://git-scm.com/): Git was used for version control having set up the GitPod Terminal to commit and push saved changes and commits to GitHub.
-
 * [GitHub](https://github.com/): GitHub was used to store the saved changes from my project after being pushed from Git.
-
 * [Balsamiq](https://balsamiq.com/): was used to create the initial wireframes and amend them to reflect the new feature(s)
 
 ## Programmes
