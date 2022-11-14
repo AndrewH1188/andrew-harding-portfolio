@@ -37,8 +37,11 @@ My Portfolio site has been designed to be responsive across all platforms. The o
     * [Social Media](#social-media)
     * [Portfolio Sites](#portfolio-sites)
 6. [Testing](#testing)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
+7. [Bugs](#bugs)
+    * [Bugs Fixed](#bugs-fixed)
+    * [Known Bugs](#known-bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
     * [Acknowledgments](#acknowledgments)
@@ -214,6 +217,18 @@ The Social Media channels / pages are all as listed below:
 This is a new feature that I decided to add. I wanted employers to be able to explore my skills further and so added the portfolio sites of Behance and GitHub so that they are able to.
 * [Adobe Behance](https://www.behance.net/Andrew_Harding)
 * [GitHub](https://github.com/AndrewH1188)
+
+
+## Bugs
+### Bugs Fixed
+* No back to top button on the Illustration page. This was because the code was cut to put oon a page instead of copied. After the code was replaced the back to the top button showed and functioned as it should.
+
+* When I looked on my iPad the nav links were closer to my name, but weren't on my Mac. This was caused by looking at the live site on my iPad that was due to be added, committed and pushed, whereas on my Mac I was viewing the site haviing used python3 -m http.server. Once the add, commit and push were completed and the live view refreshed on my iPad all was as I expected it to look.
+* Adobe Behance icon in the footer and War Heroes Remembered Code Institute portfolio project link didn't work when clicked on. Once the links were updated they both worked as expected.
+* I tried to add a 123 Reg domain name to my portfolio project so that this had a more professional feel to it. I was unfortunately not able to do this. I decided not to go any further with this because of the complications and use the .github.io link instead. Reverting back meant that there were problems when I came to add, commit and push my site. GitHub was saying to me that the push couldn't be completed and that I should do a Git pull. As there was nothing to pull I did a hard delete to restore / reset to a previous commit. I made the changes that I needed in the code then did the git add, commit and push and this all worked fine again.
+
+### Known Bugs
+There are no known bugs that I am aware of.
 
 ## Testing
 Testing can be found [here](TESTING.md)
