@@ -274,11 +274,24 @@ You are more than welcome to run this project locally yourself, and if you would
 5. Run on your preferred server.
 
 
+#### EmailJS set up:
 
 
-
-
-
+Using EmailJS will allow you as the website designer and coder to link your contact form to send emails through to your email address. This is simple to set up. If you would also like to use EmailJS on your form on your project then please follow the simple steps below:
+1. Go to this [web address](https://www.emailjs.com/) and click the Sign Up Free if you don’t have an EmailJS account already.
+2. If you haven’t got an account with EmailJS you need to sign up. You will be directed to this [page](https://dashboard.emailjs.com/sign-up).
+3. Upon sign up you will be taken to the [Email Services](https://dashboard.emailjs.com/admin) page. On this page you will see the + Add New Service button. Click this and you will see a list of email provider services and their logos. Select the email provider/service that you want to connect your email too.
+If you’re using Gmail you can connect your Gmail account to this service and send a test email to make sure this is connected (the test box has a tick auto enabled so this will send on your behalf when you click the Create Service button). Whereas if you’re using anything else like AOL, iCloud, Outlook or Yahoo you will need to put in your email address and a password. When connecting your email you will see a Service ID, this will need to be copied as you will require this later.
+4. Under Email Services you will then see your mail service logo and name with your service code, so if you didn’t copy this when you input your email please copy this now and place this safe in your JavaScript file as you will require this in your code to set up your code talking to this service.
+5. In the list on the left-hand side select [Email Templates](https://dashboard.emailjs.com/admin/templates) to get your email template set up. When you click here you will see it has a button that says + Create New Template. Click this or the Press [Create New Template](https://dashboard.emailjs.com/admin/templates/new) to create your first template!
+6. Now you are able to customise what you want your template to say as well as give it a name. Once you have done select the save in the top right-hand corner. Once you have saved this you will see The template has been added successfully appear in the top middle of the screen.
+7. To test the template and see if this is connected to your email you will then need to select Test It which is in the top right hand corner near the Save button.
+8. You will be able to fill in the form and then press the Send Test Email button. One thing to note is that above the Send Test Email button there is the following:
+* Javascript Code
+* emails.send(“service_27qba4y”,”template_opwbfyr”);
+You will need to also copy and save this somewhere (like your JavaScript file as you will need this later. In the template that you have edited to suit your requirements be sure to go to the settings and give this a name. The Template ID needs to be left as it is, so please do not change this part.
+9. So you have now set up your template and tested that this works with your email, you are now able to add in the code from EmailJS into your own JavaScript file. To do this head over to the [Integration](https://dashboard.emailjs.com/admin/integration/npm) section on the left-hand panel and select the [Browser](https://dashboard.emailjs.com/admin/integration/browser) button under the Integration title and next to the NPM button. 
+ If you would like to add the JavaScript in then there is some to get you started in the Playground section. This will allow you to see the JavaScript that you will need to add to your JavaScript file. I decided that as EmailJS had the code for the CSS, HTML and JavaScript that I would borrow theirs and credit them for this as it worked and sped up the development time for this part of my project.
 
 ## Credits
 * Code Institute GitPod template that has Emmett abbreviation.
