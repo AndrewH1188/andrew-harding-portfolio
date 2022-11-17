@@ -40,12 +40,14 @@ Back to [README.md](README.md) file
 * Tested completed form delivers to my email account with the correct details as per those filled out in the form.
 
 ### User Stories
-
-
-
-
-
-
+* I understand what this site is about and what it sets out to achieve. I understand that the site has been created due to job sites only having one link for portfolios, and that having to choose between four sites to showcase to an employer can be difficult to choose from as it depends on what they are looking for. With this in mind I understand that an employer may be looking for the broad range of skills and a divers portfolio and may not be looking for just one example.
+* Having taken a tour of this site I can navigate effectively and efficiently and all content not the pages relate to the page link and what I would expect to see on that page.
+* I understand that as Andrew has a vast work and study history that there is a brief glimpse of this showcased on his about page. The timeline effectively shows these key points and is divided by icons. Also the titles are green and larger than the text below it.
+* I can easily see the various kinds of work in the different portfolio categories and reading the text below the images get an understanding of the project and why this has been done.
+* Using the links on the coding page I can easily take a look at the repository for the site I have clicked on, but also take a look at the live site easily.
+* Heading over to the contact page I am able to contact Andrew easily and am told that my message has been sent.
+* Using the icons in the footer I am able to check out the social media pages, like share, connect, follow on Andrew's accounts.
+* In the footer again I am able to see Andrew's GitHub repository and Adobe Behance portfolio sites. This allows me to see other projects that Andrew has completed or is working on.
 
 ### Implementation
 My Portfolio site has been coded and designed to meet three needs. 
@@ -55,14 +57,12 @@ My Portfolio site has been coded and designed to meet three needs.
 
 ### Devices Used
 The following devices were used to test this site on:
-
 * iPhone 13
 * 13 inch MacBook Pro
 * iPad (5th generation)
 
 ### Browsers
 The following Browsers were used to test this site:
-
 * Google Chrome
 * Safari
 
@@ -158,7 +158,6 @@ With all the second tests that I conducted (after amending the code because of t
 ### Validators
 ### HTML Validator
 When I originally ran my code through the W3C HTML validator I had some issues. the issues highlighted to me were:
-
 1. Unclosed div in the nav section.
 2. Unclosed section tag in the footer.
 3. Script tags outside of the body.

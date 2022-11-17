@@ -14,9 +14,7 @@ My Portfolio site has been designed to be responsive across all platforms. The o
 ## Table of Contents
 1. [User Experience UX](#user-experience-ux)
     * [User Stories](#user-stories)
-    * [As a new / first time user](#new-first-time-user)
-    * [Returning Visitor Goals](#returning-visitor-goals)
-    * [User Goals](#user-goals)
+    * [Site Goals](#site-goals)
 2. [Construction Planes](#construction-planes)
     * [Strategy](#strategy)
     * [Scope](#scope)
@@ -47,28 +45,51 @@ My Portfolio site has been designed to be responsive across all platforms. The o
     * [Acknowledgments](#acknowledgments)
 
 ## User Experience UX
-
-
+My portfolio site allows the viewer to easily understand what my site is about as there is the text on the home page that welcomes them. This helps cement the fact that this is a portfolio site and the navigation supports this with the portfolios dropdown link. For all pages a back to top button has been added so that the user doesn't have to scroll from the bottom all the way back to the top, but simply use the button to help them do this effectively and efficiently. Everything from informing the user to the device friendly layout has been done with the end user in mind.
 
 ## User Stories
-## As a new / first time user
-## Returning Visitor Goals
-## User Goals
+* Understand the site's purpose and what it is I am looking to achieve with this site.
+* Navigate to specific pages easily and efficiently.
+* Understand a brief history about Andrew both work and study wise.
+* Easily see the various kinds of work in the categories and have something to tell me a bit behind the thinking/process.
+* Be able to link externally to coded sites and repositories easily.
+* Contact easily should they have a vacant role or a message that they would like to send across.
+* Be able to connect, like and follow social media pages.
+* See other repositories and portfolio sites that have been completed.
 
-
-
+## Site Goals
+* Provide potential employers with a taste of what I am about and can do.
+* Provide an easy to navigate, understand and use site that gives the potential employers a hassle free experience.
+* Provide a way that can extend the reach to potential employers.
+* Be the one link that can be added to a job site so that I don't have to choose which site to showcase to potential employers.
+* Show off my personal brand and have something that my CV can be matched to with colours, fonts etc.
 
 ## Construction Planes
 ## Strategy
+The strategy when constructing my Portfolio site was to be able to use the colours, fonts and some work mentioned on my CV to be able to tie both together. A branded CV and a branded portfolio that both work hand in hand.
+
 ## Scope
+The features and main parts that are on the table for production are:
+* Home page
+* About page
+* Coding page
+* Graphic Design page
+* Illustration page
+* Photography page
+* Contact page
+* 404 page
+I hope that with the information provided on the home page, that this gives the users a clear understanding of what my portfolio site has to offer them. With the site cleanly laid out and the navigation there for users to be able to use I would hope that this reinforces the above too.
+
 ## Structure
+All information displayed has been logically grouped with the right content on the right pages. This helps a user to find what they are looking for on the page that they have clicked into as they will know from the link that the content shown is what they would expect to see.
+The about page has a brief timeline of work and study history, the portfolio pages have the correct content to match the titles, the home has a showcase of images in the carousel and a bit about why the site has been created and the contact page has the simple relevant boxes that allow a user to contact me. 
+The structure of my site allows users to quickly navigate from the home page to their chosen page using the nav bar at the top of the page. Also on the Home page and About page there are links to other pages within my site. On the home page when hire is clicked this links you to the Contact page. When the carousel banner is clicked these link to you the different portfolio pages. In the About page there are links to the Coding page and again Contact page. Once on the Coding page a user is able to visit the live site and my repository for this. With the contact form and back to top button this further adds interactivity that the user can click within the page to do something. The last piece that a user can interact with is the Social Media and Portfolio icons, when clicked these take you to the Page, Group, Portfolio or Repository. Here a user can like, follow, connect, comment, view and further reach out to me. Accessibility throughout my site will be included for people that have visual impairments and use a screen reader. With everything mentioned above this shows the users of my Portfolio site that I have them in mind through the design of my site and have made it as user friendly as possible.
+
 ## Skeleton
+All information (as mentioned in the Structure plane) has been grouped into the relevant category. This is so that when a user clicks the link in the nav bar, they get the meets the user expectations and and give the user a great experience. 
+
 ## Surface
-
-
-
-
-
+My finished site will match the colours of my CV and have some of the information that is based on my CV expanded. I will use the same font as my CV. I will also use icons from Font Awesome that have also been used on my CV and with all the above will tie the two documents together, although one being my CV will be static, whereas my site will be an interactive piece for the viewer to navigate round. I will keep the top bar as the nav bar (or on my CV it is the information bar that holds my name, contact details GitHub and LinkedIn links). My site will use my name on the left the same as my CV, but on the right will have the nav links. The links to my GitHub and LinkedIn along with other Social media will be placed in the footer. This will help with the clean look, feel and layout of my site and again tie into my CV. I will use a similar font to my CV for my online portfolio. The font that I will use is called Poppins and is on [Google Fonts](https://fonts.google.com/specimen/Poppins?query=poppins). With the clean font, matching colours to my CV and user friendliness of my site there can be no mistake in connecting both my CV and site to each other and understanding that each are there to work alongside each other for the same outcome/goal.
 
 ## Design
 As my site is a portfolio with different works and methods of creativity, from Coding through to Photography, I decided to give each a page with the relevant content. It was hard to pick the various images as I have such a large creative portfolio from many years of work.
@@ -217,7 +238,6 @@ The Social Media channels / pages are all as listed below:
 This is a new feature that I decided to add. I wanted employers to be able to explore my skills further and so added the portfolio sites of Behance and GitHub so that they are able to.
 * [Adobe Behance](https://www.behance.net/Andrew_Harding)
 * [GitHub](https://github.com/AndrewH1188)
-
 
 ## Bugs
 ### Bugs Fixed
